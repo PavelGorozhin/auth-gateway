@@ -1,0 +1,21 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-01-26T10:30:00Z",
+  "service": "auth-gateway",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "dependencies": {
+    "database": "healthy",
+    "redis": "healthy",
+    "key_management_service": "healthy"
+  },
+  "metrics": {
+    "requests_per_minute": 60,
+    "average_response_time_ms": 25,
+    "error_rate": 0.01
+  },
+  "build_info": {
+    "git_commit": "a1b2c3d4e5f6",
+    "build_date": "2024-01-25T18:00:00Z"
+  }
+}
